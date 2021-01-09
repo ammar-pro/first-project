@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", 
+     sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+}
+.nav{
+    background-color:#2E4050;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0 290px;
+}
+a{
+    color: white;
+    padding: 5px;
+   text-decoration: none;
+
+}
+.main{
+    background-color: #36BD9C;
+ width: 100%;
+ height: 700px;
+}
+.main-class{
+    max-width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.nav-main{
+text-align: center;
+/* padding-left: 465px; */
+padding-top: 40px;
+font-size: 4rem;
+line-height: 3.5rem;
+color: white;
+}
+.main-class1{
+margin-top: -65px;
+/* align-items: center; */
+text-align: center;
+padding-top: 50px;
+}
+.pro{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+.dl-flex{
+    width: 100%;
+    background-color: white;
+    height: 700px;
+}
+.section{
+display: flex;
+margin:0 290px;
+flex-wrap: wrap;
+}
+.section-child{
+text-align: center;
+width: 33.33%;  
+padding-left: 0px;
+padding-top: 30px;
+}
+
+.section-child img{
+    width: calc(100% - 20px);
+    border-radius: 8px;
+}
+.section-parent{
+    text-align: center;
+    color:#2E4050 ;
+    font-size: 45px;
+    padding-top: 35px;
+
+}
+.dt-flex{
+    text-align: center;
+    color: white
+}
+.angle{
+    background-color:#36BD9C ;
+    width: 100%;
+    height: 500px;
+}
+.about-us{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+  padding-top: 65px;
+}
+.about-up{
+    text-align: center;
+    color: white
+}
+.dx-flex{
+    display: flex;
+   justify-content: center;
+   color: white;
+}
+.about-flex{
+    text-align: left;
+    width: 270px;
+    font-size: 17px;
+    padding: 0 20px;
+   
+}
+.about-nab{
+    text-align: left;
+    width: 270px;
+    font-size: 17px;
+    padding: 0 20px; 
+}
+.bottom{
+   
+    border: none;
+  color:rgba(0, 5, 3, 0.658);
+  font-size: 20px;
+}
+.box {
+    text-align: center;
+    padding-top: 15px;
+
+}
+.box button{
+
+    border: 1px solid white;
+    background-color: transparent;
+padding: 20px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.box button:hover {
+   background-color: white;
+   color: black;
+  }
+.contact{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+}
+.contact-us{
+    text-align: center;
+font-size: 35px;
+color: #2E4050;
+padding-top: 55px;
+/* padding-bottom: 15px; */
+
+}
+
+
+.contact-up{
+    text-align: center;
+}
+.contact-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0 290px;
+    margin-top: -10px;
+   
+}
+.contact-input{
+    /* font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none !important; */
+     text-align: center;
+margin-bottom: 12px;
+color: black;
+font-size: 15px;
+}
+.contact-input input,.contact-input textarea{
+    width: 100%;
+}
+
+.contact-e{
+align-items: center;
+width: 50px;
+display: flex;
+align-self: center;
+height: 30px;
+border: none;
+
+padding: 0 290px;  
+}
+.contact-e button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 20px;
+border-radius: 5px;
+background-color: #36BD9C;
+cursor: pointer;
+
+}
+.contact-e button:hover {
+    background-color:#36bd9bb4 ;
+    
+   }
+
+
+  .main-footer{
+      height: 300px;
+      background-color: #2E4050;
+     padding: 0 290px;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  
+.child-footer{
+ width: calc( 33.33% - 96.66px);
+
+ padding-top: 100px;
+ font-size: 13px;
+ color: white;
+}
+
+   
+
+
+  .footer{
+      width: 100%;
+      height: 50px;
+      background-color:#1A252F;
+      font-size: 15px;
+      text-align: center;
+      padding-top: 50px;
+  }
+  
+  .mac-footer{
+      padding-left: 25px;
+      padding-right:  10px; 
+      padding-top: 10px;
+      margin: 5px;
+  }
+.hello{
+    height: 55px;
+    padding-top: 20px;
+    border: none;
+    /* padding-bottom: 5px;
+    margin-top: -25px; */
+}
+a:hover{
+    color: teal;
+}
+.moon{
+    font-size: 17px;
+}
+.sun{
+font-size: 17px;
+}
